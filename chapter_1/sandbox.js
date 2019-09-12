@@ -1,27 +1,18 @@
-// for loops 
+//if statements 
+// const age = 25;
 
-// for(let i = 0; i < 5; i++) {
-//     console.log('in loop:', i);
+// if(age > 20) {
+//     console.log('you are over 20 years old');
 // }
 
-// console.log('loop finished');
+// const ninjas = ['shaun', 'ryu', 'chun-li', 'yoshi']; 
 
-const names = ['shaun', 'mario', 'luigi']; 
-
-// for(let i = 0; i < names.length; i++) {
-//     console.log(names[i])
+// if(ninjas.length > 3) {
+//     console.log("that's a lot of ninjas")
 // }
 
-//while loops 
+const password = 'password'; 
 
-let i = 0; 
-
-// while(i < 5){
-//     console.log('in loop: ', i);
-//     i++; 
-// }
-
-while(i < names.length) {
-    console.log(names[i]);
-    i++;
+if(password.length >= 8) {
+    console.log('that password is long enough')
 }
